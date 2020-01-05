@@ -11,7 +11,7 @@ const qualifyURL = (url, encode) => {
 
 module.exports = function (options) {
   const handleLogin = () => {
-    const loginURI = '/api/user/login_by_token';
+    const loginURI = '';
     const { AUTH_SERVER } = options;
     let ret = qualifyURL(loginURI, true);
     let redirectURL = AUTH_SERVER  + '&redirect_uri=' + ret;
@@ -23,10 +23,9 @@ module.exports = function (options) {
   )
 
   this.bindHook('third_login', QssoComponent);
+
+
 };
-
-
-
 
 
 
