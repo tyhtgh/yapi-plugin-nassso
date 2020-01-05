@@ -1,0 +1,24 @@
+{
+  "name": "yapi-plugin-nassso",
+  "version": "1.0.0",
+  "description": "nas sso yapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyhtgh/yapi-plugin-nassso.git"
+  },
+  "keywords": [
+    "yapi",
+    "sso",
+    "nas"
+  ],
+  "author": "allison.gong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyhtgh/yapi-plugin-nassso/issues"
+  },
+  "homepage": "https://github.com/tyhtgh/yapi-plugin-nassso#readme"
+}
