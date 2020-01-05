@@ -14,7 +14,7 @@ module.exports = function (options) {
     const loginURI = '/api/user/login_by_token';
     const { AUTH_SERVER } = options;
     let ret = qualifyURL(loginURI, true);
-    let redirectURL = AUTH_SERVER  + '?redirect_uri=' + ret;
+    let redirectURL = AUTH_SERVER  + '&redirect_uri=' + ret;
     location.href = redirectURL;
   }
 

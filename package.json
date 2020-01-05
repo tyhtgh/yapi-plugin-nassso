@@ -1,6 +1,6 @@
 {
   "name": "yapi-plugin-nassso",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nas sso yapi",
   "main": "index.js",
   "scripts": {
